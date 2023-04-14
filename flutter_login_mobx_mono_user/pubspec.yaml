@@ -1,0 +1,25 @@
+name: flutter_login_mobx_mono_user
+description: flutter_login_mobx_mono_user.
+version: 1.0.0+1
+
+publish_to: none
+
+environment:
+  sdk: ^2.19.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  flutter_login_mobx_mono_common:
+    path: ./../flutter_login_mobx_mono_common
+  flutter_login_mobx_mono_theming:
+    path: ./../flutter_login_mobx_mono_theming
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true

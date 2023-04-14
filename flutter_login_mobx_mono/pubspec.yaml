@@ -1,0 +1,26 @@
+name: flutter_login_mobx_mono
+description: A simple flutter login using mobx and monorepo.
+version: 1.0.0+1
+
+publish_to: none
+
+environment:
+  sdk: ^2.19.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  flutter_mobx: ^2.0.6+5
+  flutter_login_mobx_mono_theming:
+    path: ./../flutter_login_mobx_mono_theming
+  flutter_login_mobx_mono_authentication:
+    path: ./../flutter_login_mobx_mono_authentication
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true

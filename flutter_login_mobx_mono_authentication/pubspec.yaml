@@ -1,0 +1,29 @@
+name: flutter_login_mobx_mono_authentication
+description: flutter_login_mobx_mono_authentication.
+version: 1.0.0+1
+
+publish_to: none
+
+environment:
+  sdk: ^2.19.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  mobx: ^2.1.4
+  flutter_mobx: ^2.0.6+5
+  flutter_login_mobx_mono_common:
+    path: ./../flutter_login_mobx_mono_common
+  flutter_login_mobx_mono_theming:
+    path: ./../flutter_login_mobx_mono_theming
+  flutter_login_mobx_mono_user:
+    path: ./../flutter_login_mobx_mono_user
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
